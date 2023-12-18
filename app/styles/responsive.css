@@ -1,0 +1,542 @@
+@media screen and (max-width: 1600px) {
+    html {
+        overflow: hidden scroll !important;
+    }
+
+    .main-about-me {
+        flex-direction: column;
+        justify-content: space-between;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .frase-1 {
+        font-size: 28px;
+    }
+
+    .palavra-banner {
+        font-size: 190px;
+        line-height: 190px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .alinhando {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .alinhando {
+        padding: 0;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #menu ul {
+        gap: 10px;
+    }
+
+    .section-main {
+        min-height: 100vh;
+        padding-top: 70px;
+        width: 100%;
+    }
+
+    .frase-1 {
+        font-size: 25px;
+    }
+
+    .palavra-banner {
+        font-size: 170px;
+        line-height: 170px;
+    }
+
+    .icons {
+        padding-top: 10px;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+
+    .icons img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .section-about-me h1 {
+        font-size: 70px;
+    }
+
+    .section-about-me p {
+        font-size: 20px;
+    }
+
+    .about-me {
+        padding: 0;
+    }
+
+    .img-about-me img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .projects h1 {
+        font-size: 70px;
+    }
+
+    .card {
+        gap: 10px;
+        max-width: 1000px;
+    }
+
+    .card-img img {
+        width: 300px;
+    }
+
+    .card-desc h1 {
+        font-size: 25px;
+    }
+
+    .desc {
+        color: #000;
+        font-size: 2.25vh;
+        font-size: 15px;
+        min-height: 100px;
+        max-width: 300px;
+    }
+
+    .card-icons {
+        gap: 5px;
+    }
+
+    .card-icons a {
+        font-size: 10px;
+    }
+
+    .icon {
+        padding-right: 10px;
+        border-radius: 5px;
+    }
+
+    .icon img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .skills h1 {
+        font-size: 70px;
+    }
+
+    .skills p {
+        font-size: 18px;
+    }
+
+    .skill {
+        width: 90px;
+        height: 90px;
+    }
+
+    .skill-content {
+        width: 75px;
+        height: 75px;
+    }
+
+    .skill-content img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skill-content p {
+        font-size: 13px;
+    }
+
+    .icon-more-skill {
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+
+    .icon-more-skill img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icon-more-skill p {
+        font-size: 13px;
+    }
+
+    .contact h1 {
+        font-size: 70px;
+    }
+
+    .infos-contact p {
+        font-size: 16px;
+    }
+
+    .text-info-contact {
+        width: 400px;
+    }
+
+    .copy p {
+        font-size: 16px;
+    }
+
+    .icons-contact img {
+        width: 55px;
+        height: 55px;
+    }
+
+}
+
+@media screen and (max-width: 1020px) {
+    .alinhando {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #menu ul {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .alinhando {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .card {
+        gap: 2px;
+    }
+
+    .card-img {
+        width: 50%;
+    }
+    
+    .card-img img {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .card-desc {
+        max-width: 50%;
+    }
+    
+    .card-desc h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .desc {
+        font-size: 12px;
+        min-height: 100px;
+        max-width: 300px;
+    }
+    
+    .card-icons {
+        gap: 8px;
+    }
+    
+    .card-icons a {
+        font-size: 10px;
+    }
+
+    .icon {
+        padding-right: 5px;
+        border-radius: 5px;
+    }
+    
+    .icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .frase-1 {
+        font-size: 28px;
+    }
+
+    .palavra-banner {
+        font-size: 140px;
+        line-height: 140px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .alinhando {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .alinhando {
+        padding: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #menu ul {
+        gap: 5px;
+    }
+
+    .mobile-menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu div {
+        width: 32px;
+        height: 2px;
+        background: #fff;
+        margin: 8px;
+        transition: 0.3s;
+    }
+
+    .section-main {
+        padding-top: 90px;
+    }
+
+    .frase-1 {
+        font-size: 20px;
+    }
+
+    .palavra-banner {
+        font-size: 120px;
+        line-height: 120px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        width: 100vw;
+        height: 95vh;
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.38);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section-main {
+        min-height: 80vh;
+        padding-top: 10px;
+    }
+
+    .icons {
+        padding-top: 10px;
+        gap: 45px;
+    }
+
+    .icons img {
+        height: 55px;
+        width: 55px;
+    }
+
+    .alinhando {
+        padding: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section-main {
+        padding-top: 0;
+    }
+
+    .frase-1 {
+        font-size: 20px;
+    }
+
+    .palavra-banner {
+        font-size: 120px;
+        line-height: 120px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #logo {
+        font-size: 30px;
+    }
+
+    .icons {
+        gap: 30px;
+    }
+
+    .icons img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .alinhando {
+        padding: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .frase-1 {
+        font-size: 20px;
+    }
+
+    .palavra-banner {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .card-desc h1 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .desc {
+        font-size: 10px;
+        min-height: 90px;
+        max-width: 300px;
+    }
+
+    .card-icons {
+        gap: 8px;
+    }
+    
+    .card-icons a {
+        font-size: 10px;
+    }
+
+    .icon {
+        padding-right: 5px;
+        border-radius: 3px;
+    }
+    
+    .icon img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #logo {
+        font-size: 25px;
+    }
+
+    .alinhando {
+        padding: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .frase-1 {
+        font-size: 20px;
+    }
+
+    .palavra-banner {
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .alinhando {
+        padding: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .frase-1 {
+        font-size: 20px;
+    }
+
+    .palavra-banner {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .desc {
+        min-height: 80px;
+    }
+
+    .card-icons {
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 5px;
+    }
+    
+    .icon {
+        padding-right: 0;
+    }
+    .icon p{
+        display: none;
+    }
+
+
+    .icon img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .mobile-menu div {
+        width: 25px;
+        height: 2px;
+    }
+
+    .icons {
+        gap: 20px;
+    }
+
+    .icons img {
+        height: 30px;
+        width: 30px;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+
+    .alinhando {
+        padding: 0;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .frase-1 {
+        font-size: 15px;
+    }
+
+    .palavra-banner {
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 228px) {
+    .frase-1 {
+        font-size: 15px;
+    }
+
+    .palavra-banner {
+        word-wrap: break-word;
+        font-size: clamp(2em, 2em + 1vw, 6em);
+    }
+}
