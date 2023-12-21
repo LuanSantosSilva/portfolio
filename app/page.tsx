@@ -15,7 +15,7 @@ export default async function Home() {
             <div className="icons">
                 <a target="_blank" href="https://www.linkedin.com/in/luan-dos-santos-35759b186/"><img src="/home/linkedin.svg" alt="Icone do Linkedin"/></a>
                 <a target="_blank" href="https://github.com/LuanSantosSilva"><img src="/home/github-2.svg" alt="Icone do Github"/></a>
-                <a target="_blank" href="/support/documento.pdf"><img src="/home/Profile.svg" alt="Icone Currículo"/></a>
+                <a target="_blank" href="/support/curriculo.pdf"><img src="/home/Profile.svg" alt="Icone Currículo"/></a>
             </div>
         </div>
     </main>
@@ -55,12 +55,12 @@ export default async function Home() {
               <p className="desc">{value.description}</p>
               <div className="card-icons">       
                <abbr title="Repositório" className={repositorio}>
-                <a href="#" className="icon repositorio"><img src="projects/github-icon.svg" alt=""/>
+                <a href={value.repositorio} className="icon repositorio"><img src="projects/github-icon.svg" alt=""/>
                   <p>Repositório</p>
                 </a>
                </abbr>
                <abbr title="Ler mais" className={ler}>
-                <a href="#" className="icon ler-mais"><img src="projects/reticencias.svg" alt=""/>
+                <a href={value.ler_mais} className="icon ler-mais"><img src="projects/reticencias.svg" alt=""/>
                   <p>Ler mais</p>
                 </a>
                </abbr>

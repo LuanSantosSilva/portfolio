@@ -1,18 +1,18 @@
 [
     {   
-        "image":"projects_card/imagem card.png",
-        "project": "Teste",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "image":"projects_card/postgpt.svg",
+        "project": "PostGPT",
+        "description": "O PostGPT foi feito com o objetivo de se criar posts para o Instagram utilizando inteligência artificial.",
         "ler_mais": "",
-        "repositorio": "",
+        "repositorio": "https://github.com/LuanSantosSilva/postGPT",
         "demo": ""
     },
     {   
         "image":"projects_card/imagem card.png",
-        "project": "Teste",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "project": "Gerador Scenario Outline",
+        "description": "Esse script foi feito para gerar dados para testes, principalmente testes que utilizavam a metodologia BDD. Em segundos são gerados uma ampla variedade de dados fictícios.",
         "ler_mais": "",
-        "repositorio": "",
+        "repositorio": "https://github.com/LuanSantosSilva/data-generate",
         "demo": ""
     }
 ]
